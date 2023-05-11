@@ -1,0 +1,283 @@
+@media only screen and (max-width: 1140px){
+	.home{
+		height: 65vh;
+	}
+	.home .navigation .items{
+		display: none;
+	}
+	.home .navigation .logo{
+		width: 40%;
+	}
+	.home .navigation .logo img{
+	height: 120px;
+	width: 120px;
+	margin: 30px 0 0 40px;
+}
+.home .navigation .logo h1 {
+    font-size: 30px;
+    margin: 50px 0 0 40px;
+    }
+    .home .navigation .logo span {
+    font-size: 40px;
+}
+#menu_bar{
+	color: white;
+	font-size: 50px;
+	margin: 40px 0 0 50%;
+	display: block;
+}
+.home .head {
+    margin:300px 200px 200px 200px;
+    height: 300px;
+    width: 60%;
+    }
+ .home .head h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+ .home .head p{
+ 	font-size: 30px;
+ }
+ .home .head button{
+	margin-top: 40px;
+	height: 80px;
+	width: 300px;
+	font-size: 40px;
+	border: none;
+	outline: none;
+	background: #ff9f67;
+	color: white;
+}
+.responsive_nav{
+	display: none;
+	position:fixed;
+	height: 800px;
+	width: 100%;
+	background: white;
+	top: 160px;
+    animation: side 0.3s ease-in;
+	transition: 0.3s all;
+}
+@keyframes side{
+	from{
+		width: 0%;
+	}
+	to{
+		width: 100%;
+	}
+}
+.responsive_nav .items{
+	text-align: center;
+}
+.responsive_nav .items ul{
+	margin-top: 100px;
+}
+.responsive_nav .items ul li{
+	list-style: none;
+	margin: 40px;
+}
+.responsive_nav .items ul li a{
+	text-decoration: none;
+	font-size: 40px;
+	color: black;
+}
+.responsive_nav .items ul li a:hover{
+	border-bottom: 2px solid #ff9f67;
+	color:#ff9f67;
+}
+.detail_box{
+	height: 60vh;
+	display: grid;
+}
+.detail_box .details{
+	width: 80%;
+	height:325px;
+	margin: 50px 100px 50px 100px;
+}
+.detail_box .details .detail_pic i{
+	    font-size: 100px;
+    margin: 100px 50px 0 40px;
+}
+.detail_box .details .detail_text h1{
+	    margin: 80px 0 0 10px;
+    font-size: 50px;
+}
+.detail_box .details .detail_text p{
+	    font-size: 35px;
+    margin: 5px 20px 0 10px;
+}
+.courses{
+	padding-bottom: 0;
+}
+.courses .course_card{
+	margin: 100px 0 0 0;
+	width: 100%;
+	text-align: center;
+	display:grid;
+}
+.courses .course_card .card{
+	width: 50em;
+	margin: 0 100px 100px 100px;
+}
+.courses .course_title span{
+	font-size:100px;
+}
+.courses .course_title h1 {
+    font-size: 60px;
+   }
+   .courses .course_card .card .card-body h1{
+   	font-size: 60px;
+   }
+   .courses .course_card .card .card-body p{
+   	font-size: 40px;
+   }
+   .courses .course_card .card .card-body button{
+	text-decoration: none;
+	background-color: #ff9f67;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	color: white;
+	font-size: 40px;
+	height: 80px;
+	width: 300px;
+	margin-top: 30px;
+}
+.feature{
+	display: grid;
+	padding: 10px 50px 50px 50px;
+	}
+	.feature .feature_box{
+	width: 100%;
+}
+.feature .feature_box span{
+	font-size: 80px;
+	}
+	.feature .feature_box h1{
+		margin-top: 10px;
+		font-size: 60px;
+		font-weight: bolder;
+	}
+.feature .feature_box li{
+	margin-top: 30px;
+	list-style: none;
+	font-size: 40px;
+}
+.feature .feature_box i{
+	color:  #ff9f67;
+}
+.feature .feature_video{
+	width: 100%;
+	margin:50px 0 0 50px;
+}
+.feature .feature_video embed{
+	height: 450px;
+	width: 800px;
+}
+.work{
+	display: grid;
+	padding: 50px;
+	text-align: center;
+} 
+.work .work_image img{
+	margin: 0;
+	height: 700px;
+	width: 800px;
+}
+.work .work_text{
+	text-align: left;
+}
+.work .work_text h1{
+	font-size: 60px;
+	margin: 50px 0 0 0px;
+}
+.work .work_text li{
+	font-size: 40px;
+	margin: 20px 0 0 0px;
+	list-style: none;
+}
+.work .work_text i{
+	color:  #ff9f67;
+}
+..honourables{
+	padding:50px 30px 30px 30px;
+}
+.honourables .honourables_title span{
+	font-size: 70px;
+	font-weight: bolder;
+	color: #ff9f67;
+}
+.honourables .honourables_title h1{
+	font-size: 60px;
+	font-weight: normal;
+}
+.honourables .honourables_profile{
+	display: none;
+}
+.honourables .carousel{
+	display:block;
+}
+.carousel{
+	display:block;
+}
+.carousel img{
+	margin: 0 0 0 200px;
+	height: 500px;
+	width: 500px;
+}
+.group{
+	display: grid;
+	width: 100%;
+}
+.group .group_image{
+	text-align: center;
+	width: 100%;
+	margin: 50px 0 0 0;
+}
+.group .club_text{
+	width: 100%;
+}
+.group .group_image img {
+    height: 100%;
+    width: 100%;
+}
+.group .club_text h1 {
+    font-size: 60px;
+}
+.group .club_text p{
+    font-size: 40px;
+}
+.group .club_text button{
+	text-decoration: none;
+	background-color: #ff9f67;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	color: white;
+	font-size: 40px;
+	height: 80px;
+	width: 300px;
+	margin-top: 30px;
+}
+.foot{
+	padding: 20px;
+	height: 40vh;
+	width: 100%;
+	background: #000022;
+}
+.foot h1{
+	padding:20px 0 0 0;
+	color: #ff9f67;
+	font-size: 60px;
+}
+.foot p{
+	font-size: 40px;
+}
+.scrollup{
+	height: 100px;
+	width: 100px;
+	font-size: 60px;
+	margin-bottom: 50px;
+	position: fixed;
+}
+}

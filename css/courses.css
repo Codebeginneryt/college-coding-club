@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: lato;
+}
+.home{
+	height: 50vh;
+	width: 100%;
+	background:rgba(0,0,0.8,0.8) url('background.jpg');
+	background-size: cover;
+	background-blend-mode: darken;
+}
+.home .navigation{
+	height: 100px;
+	width: 100%;
+	display: inline-flex;
+}
+.home .navigation .logo{
+	display: inline-flex;
+	height: 100%;
+	width: 20%;
+}
+.home .navigation .logo img{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	margin: 10px 0 0 20px;
+}
+.home .navigation .logo h1{
+	font-size: 18px;
+	margin: 20px 0 0 20px;
+	color: grey;
+}
+.home .navigation .logo span{
+	font-size: 30px;
+	color:white;
+	font-weight: bolder;
+}
+.home .navigation .items{
+	height: 100%;
+	width: 50%;
+	margin: 0 0 0 30%;
+}
+.home .navigation .items ul{
+	display: inline-flex;
+}
+.home .navigation .items ul li{
+	margin: 30px 0 0 0;
+	list-style: none;
+}
+.home .navigation .items ul li a{
+	color: white;
+	margin: 0px 0 0 40px;
+	font-size: 20px;
+	text-decoration: none;
+	padding-bottom: 3px;
+}
+.home .navigation .items ul li a:hover{
+	border-bottom: 2px solid #ff9f67;
+	color:#ff9f67;
+}
+.home .head{
+	margin: 50px;
+	height: 300px;
+	width: 50%;
+}
+.home .head h1{
+	color: white;
+	font-size: 50px;
+	font-weight: bolder;
+}
+.home .head p{
+	color: white;
+	margin: 30px 0 0 0;
+}
+#menu_bar{
+	display: none;
+}
+.responsive_nav{
+	display: none;
+}
+.courses{
+	width: 100%;
+	padding-bottom: 50px;
+}
+.courses .course_title{
+	text-align: center;
+}
+.courses .course_title span{
+	font-size: 40px;
+	font-weight: bolder;
+	color: #ff9f67;
+}
+.courses .course_title h1{
+	font-size: 30px;
+	font-weight: normal;
+}
+.courses .course_card{
+	margin: 50px 0 0 0;
+	width: 100%;
+	text-align: center;
+	display: inline-flex;
+}
+.courses .course_card .card{
+	width: 25em;
+	margin: 0 0 0 180px;
+}
+.courses .course_card .card .card-body button{
+	text-decoration: none;
+	background-color: #ff9f67;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	color: white;
+	font-size: 18px;
+	height: 40px;
+	width: 150px;
+	outline: none;
+}
+.foot{
+	height: 60vh;
+	width: 100%;
+	background: #000022;
+}
+.foot{
+	color: grey;
+	text-align: center;
+}
+.foot h1{
+	padding:20px 0 0 0;
+	color: #ff9f67;
+}
+.foot p{
+}
+/* Courses Responsive */
+@media only screen and (max-width: 1140px){
+	.home{
+		height: 30vh;
+	}
+	.home .navigation .items{
+		display: none;
+	}
+	.home .navigation .logo{
+		width: 40%;
+	}
+	.home .navigation .logo img{
+	height: 120px;
+	width: 120px;
+	margin: 30px 0 0 40px;
+}
+.home .navigation .logo h1 {
+    font-size: 30px;
+    margin: 50px 0 0 40px;
+    }
+    .home .navigation .logo span {
+    font-size: 40px;
+}
+#menu_bar{
+	color: white;
+	font-size: 50px;
+	margin: 40px 0 0 50%;
+	display: block;
+}
+.responsive_nav{
+	display: none;
+	position:fixed;
+	height: 800px;
+	width: 100%;
+	background: white;
+	top: 160px;
+    animation: side 0.3s ease-in;
+	transition: 0.3s all;
+}
+.home .head{
+	margin: 200px 100px 100px 100px;
+}
+.home .head h1 {
+    font-size: 70px;
+    }
+    .home .head p {
+    font-size: 40px;
+}
+@keyframes side{
+	from{
+		width: 0%;
+	}
+	to{
+		width: 100%;
+	}
+}
+.responsive_nav .items{
+	text-align: center;
+}
+.responsive_nav .items ul{
+	margin-top: 100px;
+}
+.responsive_nav .items ul li{
+	list-style: none;
+	margin: 40px;
+}
+.responsive_nav .items ul li a{
+	text-decoration: none;
+	font-size: 40px;
+	color: black;
+}
+.responsive_nav .items ul li a:hover{
+	border-bottom: 2px solid #ff9f67;
+	color:#ff9f67;
+}
+.courses{
+	padding-bottom: 0;
+}
+.courses .course_card{
+	margin: 100px 0 0 0;
+	width: 100%;
+	text-align: center;
+	display:grid;
+}
+.courses .course_card .card{
+	width: 50em;
+	margin: 0 100px 100px 100px;
+}
+.courses .course_title span{
+	font-size:100px;
+}
+.courses .course_title h1 {
+    font-size: 60px;
+   }
+   .courses .course_card .card .card-body h1{
+   	font-size: 60px;
+   }
+   .courses .course_card .card .card-body p{
+   	font-size: 40px;
+   }
+   .courses .course_card .card .card-body button{
+	text-decoration: none;
+	background-color: #ff9f67;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	color: white;
+	font-size: 40px;
+	height: 80px;
+	width: 300px;
+	margin-top: 30px;
+	outline: none;
+}
+#dsa h5{
+	font-size: 60px;
+}
+#dsa,#webd button{
+	font-size: 40px;
+}
+#dsa p{
+	font-size: 40px;
+}
+#webd h5{
+	font-size: 60px;
+}
+#webd p{
+	font-size: 40px;
+}
+.foot{
+	padding: 20px;
+	height: 40vh;
+	width: 100%;
+	background: #000022;
+}
+.foot h1{
+	padding:20px 0 0 0;
+	color: #ff9f67;
+	font-size: 60px;
+}
+.foot p{
+	font-size: 40px;
+}

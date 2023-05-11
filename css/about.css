@@ -1,0 +1,36 @@
+.about_head{
+	width: 100%;
+	padding: 50px;
+	display: flex;
+}	
+.about_head .about_image img{
+	height: 200px;
+	width: 200px;
+	border:inset;
+}
+.about_head .about_text{
+	margin: 20px 0 0 50px;
+}
+.about_head .about_text h1{
+	font-weight: bolder;
+}
+@media only screen and (max-width: 1140px){
+	.about_head{
+		display: grid;
+	}
+	.about_head .about_image img{
+	height: 500px;
+	width: 500px;
+	border:inset;
+}
+.about_head .about_text h1{
+	font-weight: bolder;
+	font-size: 60px;
+}
+.about_head .about_text p{
+	font-size: 40px;
+}
+.about_head .about_text{
+	margin: 80px 0 0 40px;
+}
+}

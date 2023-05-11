@@ -1,0 +1,22 @@
+.gallery{
+	padding: 20px;
+}
+.gallery .image{
+	height: 300px;
+	width: 350px;
+	margin: 10px;
+	overflow: hidden;
+}
+.gallery .image-box{
+	justify-content: center;
+	display: flex;
+}
+.gallery .image img{
+	height: 100%;
+	width: 100%;
+	transition: 0.3s;
+}
+.gallery .image img:hover{
+	height: 120%;
+	width: 120%;
+}

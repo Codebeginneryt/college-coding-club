@@ -1,0 +1,79 @@
+.join{
+	width: 100%;
+	height: 625px;
+	text-align: center;
+	padding: 50px 100px 30px 100px;
+}
+.join .form{
+	display: flex;
+	height: 400px;
+	width: 100%;
+}
+.join .form form input{
+	height: 40px;
+	width: 300px;
+	padding: 10px;
+	outline: none;
+	border: 1px solid grey;
+	margin: 10px;
+}
+.join .form img{
+	margin-left: 200px;
+}
+.join .form form{
+	margin: 20px;
+}
+.join .form form input:focus{
+	border: 1px solid #ff9f67;
+}
+.join .form form button{
+	height: 40px;
+	width: 300px;
+	padding: 10px;
+	outline: none;
+	border: 1px solid grey;
+	margin: 10px;
+	background: #ff9f67;
+	border: none;
+	color: white;
+	font-size: 20px;
+}
+@media only screen and (max-width: 1140px){
+	.join .form{
+	display:grid;
+	height: 400px;
+	width: 100%;
+	text-align: center;
+}
+.join{
+	height: 80vh;
+	padding: 50px;
+}
+.join h1{
+	font-size: 60px;
+}
+.join .form img{
+	margin-left: 100px;
+}
+.join .form form input{
+	height: 100px;
+	width: 800px;
+	padding: 30px;
+	outline: none;
+	border: 1px solid grey;
+	margin: 10px;
+	font-size: 40px;
+}
+.join .form form button{
+	height: 100px;
+	width: 800px;
+	padding: 10px;
+	outline: none;
+	border: 1px solid grey;
+	margin: 10px;
+	background: #ff9f67;
+	border: none;
+	color: white;
+	font-size: 40px;
+}
+}

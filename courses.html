@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Courses | Athena</title>
+	<link rel="stylesheet" type="text/css" href="css/courses.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-- Navigation bar section --->
+<div class="home">
+	<div class="navigation">
+		<div class="logo">
+			<img src="images/logo.jpg">
+			<h1><span>B S A I T M</span><br>Coding Club</h1>
+		</div>
+		<div class="items">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="#" style="color: #ff9f67; border-bottom: 2px solid #ff9f67;">Courses</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="join.php">Join</a></li>
+			</ul>
+		</div>
+		<i class="fa-solid fa-bars" id="menu_bar"></i>
+	</div>
+
+<!--- Header Ssection -->
+<div class="head">
+	<h1>Courses</h1>
+	<p>Home | Courses</p>
+
+</div>
+</div>
+<div class="responsive_nav" id="navbar">
+	<div class="items">
+		<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="#" style="color: #ff9f67; border-bottom: 2px solid #ff9f67;">Courses</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="join.php">Join</a></li>
+			</ul>
+	</div>
+</div>
+
+<!-- our courses section-->
+<div class="courses">
+	<!--<div class="course_title">
+		<h1><span>Our</span> Courses</h1>
+	</div>-->
+<div class="course_card">
+	<div class="card">
+  <img src="images/web.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  	<h1>Web Development</h1>
+    <p class="card-text">Athena Conduct Web Development Course with all given complete Topics in detail.</p>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#webd">Topics</button>
+  </div>
+</div>
+<div class="card">
+  <img src="images/dsa.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  	<h1>Data Structure</h1>
+    <p class="card-text">Athena Conduct Data Structure & Algorithm Course with all given complete Topics in detail.</p>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#dsa">Topics</button>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- web-d Modal -->
+<div class="modal fade" id="webd" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Web Development Topics</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Introduction to Web Development</p>
+        <p>CSS ( Cascading Style Sheets )</p>
+        <p>JavaScript and HTTP (forms)</p>
+        <p>Javascript & Document Object Model - DOM</p>
+        <p>PHP HyperText PreProcessor - PHP</p>
+        <p>SQL & MySQL</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- DSA Modal -->
+<div class="modal fade" id="dsa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Data Structure Topics</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Basic Data Structures: Arrays, Strings, Stacks, Queues</p>
+        <p>Asymptotic analysis (Big-O notation)</p>
+        <p>Basic math operations (addition, subtraction, multiplication, division, exponentiation)</p>
+        <p>Sqrt(n) primality testing</p>
+        <p>Euclid’s GCD Algorithm</p>
+        <p>Basic Recursion</p>
+        <p>Basic Dynamic Programming</p>
+        <p>Binary Searching</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer section -->
+<!--<footer>
+		<div class="foot">
+			<h1>Athena Coding Club</h1>
+			<p>B.S. Anangpuria Educational Institutes, Alampur,<br> Ballabgarh-Sohna Major District Road,<br> Faridabad-121004, Delhi-NCR, INDIA.</p>
+			<p>0129-2206750-53, +91-9289110953-57<br>bsaei@anangpuria.com</p>
+			<p>www.anangpuria.com</p>
+			<center><hr width="50%"></center>
+			<p>Privacy Policy Terms & Conditions Copyright & Trademark Contact Us &copy; 2023 athena.com reserved all rights.</p>
+		</div>
+	</footer>-->
+
+
+<!-- Script CDN-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://code.jquery.com/jquery-3.6.3.slim.min.js" integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="javascript/index.js"></script>
+</body>
+</html>
